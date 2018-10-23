@@ -1,0 +1,76 @@
+body{
+	    overflow-x: hidden;
+	    margin:0px;
+}
+.thank_page_banner{
+	height:665px;
+	background-image:url('img/thankpage/end_background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:40px;
+    background-position: center center;
+}
+.center{
+	text-align: center;
+}
+.center_text h2{
+	font-size:2rem;
+}
+.center_text h2,.center_text p{
+	font-weight:bolder;
+	padding-top:1rem;
+	    color:#202020;
+}
+.done{
+	margin-top:80px;
+}
+footer{
+	background-color: #121212;
+	padding:2rem 0px;
+}
+footer img{
+	padding: 1.3rem 0px;	
+}
+footer p{
+	color:#d6ccb3;
+}
+/*bs*/
+.container-fluid{
+	max-width:1200px;
+	padding:0px 15px;
+	font-weight: 600;
+}
+.navbar-brand{
+	padding:5px 20px;
+	    height: 60px;
+}
+.navbar-brand>img {
+    width: 140px;
+}
+.nav.navbar-nav.navbar-right{
+	text-align:center;
+}
+.row{
+	margin:0px;
+}
+   @media (max-width:480px){
+   	.container-fluid{
+   		padding-top:10px;
+   		padding-bottom:0px;
+   	}
+   	.thank_page_banner{
+   	 background-size: 480%;
+   	 background-position: left top;
+   	 }
+   	 .navbar-brand>img {
+    width: 90px;
+	}
+	.navbar-toggle {
+	    margin-top: 2px;
+	    }
+	.navbar-brand{
+	    height: 0px;
+	}
+
+   }
+   
