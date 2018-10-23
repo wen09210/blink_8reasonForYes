@@ -1,0 +1,68 @@
+.dysonfilm iframe{
+	    padding: 10px;
+    background: #eadac0;
+    border-radius: 10px;
+}
+.embed-responsive-4by3{
+	padding-bottom:40px;
+}
+.section img.section_title {
+    padding: 60px 10px 40px 10px;
+    max-width:600px;
+}
+.startbutton img{
+	padding:60px 0px;
+	max-width:200px;
+	cursor:pointer;
+}
+.film.section.row.notice{
+	text-align:center;
+}
+.activity{
+	background: #dfceb0;
+	background-image: url("http://www.yesim.tw/blink/img/dyson/bgimg.png");
+	    background-repeat: no-repeat;
+    background-size: contain;
+}
+.y2bwidth{
+	max-width:600px;
+	margin:0 auto;
+	padding-bottom:40px;
+}
+.notice.section .startbutton{
+	text-align:center;
+}
+#changecontent1,#changecontent2{
+	display:none;
+}
+.draw{
+    position: fixed;
+    bottom: 5%;
+    right: 10px;
+    z-index: 20;
+    background: cornflowerblue;
+    padding: 10px;
+    border-radius: 50% 50%;
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+}
+.draw img{
+    max-width: 80px;
+}
+.draw:before{
+	position:absolute;
+	content:'抽dyson';
+	color:white;
+	bottom:20px;	
+	right:20px;
+}
+@media(max-width:768px){
+	.section img.section_title {
+		max-width:100%;
+	}
+.activity{
+    background-size: cover;
+}
+
+}
